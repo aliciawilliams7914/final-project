@@ -200,12 +200,12 @@ h1 {
     font-size: 40;
 }
 h2 {
-    font-size: 20px;
-    font-weight: 400;
-  text-align: center;
-  margin-left: 25%;
-  margin-right: 20%;
-  padding-bottom: 50px;
+font-size: 20px;
+font-weight: 300;
+text-align: center;
+margin-left: 25%;
+margin-right: 20%;
+padding-bottom: 50px;
   
     
 }
@@ -219,12 +219,10 @@ h3 {
 }
 
 .highlight__wrapper {
-    
-    flex-wrap: wrap;
-    margin-bottom: 8px;
-   justify-content: center;
+    margin-bottom:5px;
+    justify-content: center;
     flex-direction: row;
-    padding: 10px;
+    padding: 5px;
     display: flex;
   
         }
@@ -236,7 +234,7 @@ h3 {
     justify-content: center;
     flex-direction: column;
     }
-    
+
     .highlight__img {
     border: 2px solid #dbd4eb;
     color: rgb(77, 59, 212);
