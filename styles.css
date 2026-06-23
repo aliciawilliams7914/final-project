@@ -1364,7 +1364,7 @@ footer {
  .header__customers {
     padding-right: 0px;
  }
- .header__customers-title,
+ .header__customers--title,
  .header__img--wrapper {
     margin-top: 48px;
  }
@@ -1384,8 +1384,11 @@ footer {
  .feature__para {
     max-width: none;
  }
+ .section__para {
+    max-width: 16px;
+ }
  .section__title {
-    line-height: 1;
+    font-size: 36px;
  }
  .quality__description {
     margin-right: 0px;
@@ -1535,15 +1538,25 @@ footer {
     flex-direction: column;
     height: auto;
   }
-  .header__email--btn {
+  .header__email--input {
     position: static;
     padding: 16px 0;
     padding-left: 32px;
     line-height: 1.5;
   }
+  .header__email--btn {
+    width: 100%;
+    padding: 16px 0;
+    margin: 16px 0;
+    margin-bottom: 0px;
+    line-height: 1.5;
+  }
   .header__customer--title {
     font-size: 14px;
-    letter-spacing: 30px;
+    letter-spacing: 0.05em;
+  }
+  .section__title {
+    font-size: 30px;
   }
   #features .section__title,
   #pricing .section__title {
@@ -1564,6 +1577,10 @@ footer {
 .feature__text {
      margin-left: 0px;
     margin-top: 16px;
+}
+.feature__para {
+    margin-top: 4px;
+    line-height: 2;
 }
 #steps .section__title {
     margin: 16px 0 0 0;
