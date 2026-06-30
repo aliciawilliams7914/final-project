@@ -1642,7 +1642,7 @@ footer {
 }
  .feature__row {
     padding: 32px 8px;
-    margin: 0 10px;
+    margin: 0 16px;
  }
  .feature__para {
     max-width: none;
@@ -1674,7 +1674,7 @@ footer {
  }
 #features .section__title,
 #pricing .section__title {
-    font-size: 48px'
+    font-size: 48px;
 }
 #testimonials .container {
     padding-top: 5rem;
@@ -1730,7 +1730,8 @@ footer {
     }
     .quality__description,
     .quality__img--wapper,
-    .steps_description,
+    .steps__description,
+    .steps__img--wrapper,
     .values__img--wrapper,
     .value__description,
     .values__img,
@@ -1763,22 +1764,22 @@ footer {
     align-items: center;
   }
   #pricing .row {
-    margin-top: 40;
+    margin-top: 40px;
   }
   .testimonials__description {
     padding-left: 0;
   }
   .footer__columns {
-    width: cala(100% / 3);
+    justify-content: flex-start;
   }
+.footer__column {
+    width: calc(100% / 3);
+}
   .footer__bottom {
     flex-direction: column;
     align-items: center;
   }
-  .footer__bottom {
-    flex-direction: column;
-    align-items: center;
-  }
+  
   .footer__copyright,
   .footer__socials {
     margin-top: 32px;
@@ -1814,7 +1815,7 @@ footer {
     margin-bottom: 0px;
     line-height: 1.5;
   }
-  .header__customer--title {
+  .header__customers--title {
     font-size: 14px;
     letter-spacing: 0.05em;
   }
@@ -1832,7 +1833,7 @@ footer {
     text-align: center;
   }
   .feature__title {
-    letter-spacing: 0.025;
+    letter-spacing: 0.025em;
     line-height: 1;
    
   }
@@ -1921,5 +1922,5 @@ footer {
   }
 }
 
-    }
+}
 }
