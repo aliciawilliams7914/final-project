@@ -1602,6 +1602,26 @@ footer {
     width: calc(100% - 40%);
     }
 }
+@media (max-width: 768) {
+    .nav__links {
+        display: none;
+    }
+    .btn__menu {
+        display: block;
+    }
+    .header__container {
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    header__description,
+  .header__image--wrapper {
+    width: 100%;
+  }
+   .feature {
+    width: 100%;
+  }
+}
 @media (max-width: 1024px) {
     .nav__links {
     display: none;
@@ -1711,6 +1731,8 @@ footer {
 }
 footer {
     padding: 80px 32px;
+}
+
 }
 @media (max-width: 768px) {
     .features {
