@@ -858,7 +858,7 @@ justify-content: space-between;
 
 #values .btn {
     margin-top: 48px;
-    background-color: #1972d7;
+    background-color: #4d08d7;
     padding: 8px 20px;
     border-radius: 50px;
     color: white;
@@ -891,7 +891,7 @@ justify-content: space-between;
     width: 50%;
 }
 
-.value__list {
+.values__list {
     margin-left: 0px;
     margin-right: 0px;
     display: flex;
