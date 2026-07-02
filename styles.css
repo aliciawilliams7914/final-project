@@ -194,7 +194,7 @@ style {
    bottom: -6px;
    height: 2px;
    width: 100%;
-   background: #6415ff;
+   background: #09080c;
    transition: all 300ms ease;
    opacity: 0
 }
@@ -1322,7 +1322,6 @@ main {
     padding: 96px 0;
     width: 100%;
     background-color: rgb(100, 21, 255);
-    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1352,7 +1351,7 @@ main {
 }
 
 .start__title {
-    color: #292b2c;
+    color: #dae6ec;
     font-style: italic;
     font-size: 30px;
     font-weight: 700;
@@ -1364,7 +1363,7 @@ main {
     border-radius: 500px;
     font-weight: 700;
     font-size: 16px;
-    color: #5d6a76;
+    color: #fbfcfc;
     line-height: 1.5;
     letter-spacing: 0.025;
     margin: 1px;
@@ -1372,24 +1371,32 @@ main {
 }
 
 .start__button:nth-child(1) {
-    background: #f56565;
+    background: #dd6161;
+    box-shadow: rgba(0, 0, 0, 0)0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0. 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    margin-right: 32px;
+    transition: all 300ms ease;
+}
+.start__button:nth-child(2) {
+    background: #4a4a9f;
     box-shadow: rgba(0, 0, 0, 0)0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px,
     rgba(0, 0, 0. 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     margin-right: 32px;
     transition: all 300ms ease;
 }
 .start__button:hover:nth-child(1) {
-    background-color: rgb(229, 62, 62);
+    background-color: rgb(248, 243, 243);
+    color: rgb(100, 21, 255)
 }
 .start__button:hover:nth-child(2) {
-    border: 1px solid rgb(6, 7, 8);
+    background-color: #0b48b0;
+    border: 1px solid rgb(15, 64, 128);
     transition: all 300ms ease;
-    background-color: #1972d7;
+    
 }
 .start__button:hover:nth-child(2) {
-    background-color: rgb(231, 243, 243);
-     color: rgb(64, 23, 152)
-   
+    background-color: rgb(247, 250, 252);
+     color: rgb(100, 21, 255);
    
 }
 #start .row {
@@ -1403,7 +1410,7 @@ main {
     height: 20rem;
     width: 20rem;
     transform: translate(-5rem, 8rem);
-    color: rgb(69, 21, 167);
+    color: rgb(145, 125, 185);
     opacity: 0.5;
 }
 .start__blob--2 {
