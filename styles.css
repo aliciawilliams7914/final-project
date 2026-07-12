@@ -1598,7 +1598,7 @@ footer {
    }
    
    .header__img {
-    max-width: 512px; {
+    max-width: 512px;
    }
    .plan__button {
     max-width: none;
@@ -1962,15 +1962,15 @@ footer {
 }
 
 }
-}
+
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 768px) {
     .header__description {
         text-align: center;
         padding: 0 50px;
     }
-        padding: 0 24px;
-    }
+       
+    
     h1 {
         font-size: 40px;
     }
