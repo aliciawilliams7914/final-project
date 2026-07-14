@@ -659,7 +659,7 @@ margin: 0 auto;
     margin-bottom: 20px;
 }
 
-#quality .row, #value .row {
+#quality .row, #values .row {
    
 }
 
@@ -674,7 +674,7 @@ justify-content: space-between;
 }
 
 #quality .section__title,
-#value .section__title {
+#values .section__title {
     line-height: 1.25;
     font-size: 40px;
     font-weight: 600px;
@@ -1770,11 +1770,11 @@ footer {
         text-align: center;
     }
     .quality__description,
-    .quality__img--wapper,
+    .quality__img--wrapper,
     .steps__description,
     .steps__img--wrapper,
     .values__img--wrapper,
-    .value__description,
+    .values__description,
     .values__img,
     .testimonials__description,
     .testimonial__img {
