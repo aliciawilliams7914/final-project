@@ -1687,7 +1687,7 @@ footer {
     max-width: none;
  }
  .section__para {
-    max-width: 16px;
+    max-width: 576px;
  }
  .section__title {
     font-size: 36px;
